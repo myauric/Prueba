@@ -138,6 +138,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = mecy;
+				TargetAttributes = {
+					80A91A171835A2DB00D7961F = {
+						DevelopmentTeam = 2A6M49ZWFZ;
+					};
+				};
 			};
 			buildConfigurationList = 80A91A131835A2DB00D7961F /* Build configuration list for PBXProject "RitmoSex" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -274,10 +279,13 @@
 		80A91A3F1835A2DB00D7961F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RitmoSex/RitmoSex-Prefix.pch";
 				INFOPLIST_FILE = "RitmoSex/RitmoSex-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -285,10 +293,13 @@
 		80A91A401835A2DB00D7961F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RitmoSex/RitmoSex-Prefix.pch";
 				INFOPLIST_FILE = "RitmoSex/RitmoSex-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -312,6 +323,7 @@
 				80A91A401835A2DB00D7961F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
